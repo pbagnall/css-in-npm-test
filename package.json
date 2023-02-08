@@ -1,0 +1,23 @@
+{
+  "name": "css-in-npm-test",
+  "version": "0.1.0",
+  "description": "Testing options for publishing CSS in NPM packages",
+  "main": "index.js",
+  "repository": "git@github.com:pbagnall/css-in-npm-test.git",
+  "author": "Peter Bagnall <peter.bagnall@ul.com>",
+  "license": "GPL-3.0",
+  "scriptsComments": {
+    "test": "true passes the test, false fails"
+  },
+  "scripts": {
+    "clean": "rimraf dist",
+    "sass": "sass src/test.scss dist/styles.css",
+    "test": "true",
+    "build": "run-s clean sass"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^4.1.2",
+    "sass": "^1.58.0"
+  }
+}
