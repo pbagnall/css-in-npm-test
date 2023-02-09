@@ -11,7 +11,7 @@
   },
   "scripts": {
     "clean": "rimraf dist",
-    "sass": "sass src/test.scss dist/styles.css",
+    "sass": "sass --no-source-map src/test.scss dist/styles.css",
     "test": "true",
     "build": "run-s clean sass"
   },
