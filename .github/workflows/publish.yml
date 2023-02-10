@@ -28,9 +28,6 @@ jobs:
         with:
           node-version: '18.x'
           registry-url: https://registry.npmjs.org/
-      - run: yarn --frozen-lockfile
-      - run: yarn build
-      - run: yarn test
-      - run: yarn publish dist
+      - run: yarn publish --access public dist
         env:
           NODE_AUTH_TOKEN: ${{secrets.publish_css}}
