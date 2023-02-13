@@ -1,0 +1,2 @@
+ npx commitizen init cz-conventional-changelog --yarn --dev --exact
+ 

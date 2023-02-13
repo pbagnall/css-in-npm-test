@@ -7,18 +7,75 @@
   "author": "Peter Bagnall <peter.bagnall@ul.com>",
   "license": "GPL-3.0",
   "scriptsComments": {
-    "test": "true passes the test, false fails"
+    "test": "This is a placeholder for an actual test script, NB: true has a exit code of 0"
   },
   "scripts": {
+    "preinstall": "git config core.hooksPath scripts/githooks",
+    "global-installs": "scripts/commitizen",
+    "postinstall": "run-s global-installs",
     "clean": "rimraf dist",
     "sass": "sass --no-source-map src/test.scss dist/styles.css",
     "test": "true",
-    "pub": "scripts/publish.mjs",
-    "build": "run-s clean sass pub"
+    "prep-dist": "scripts/publish.mjs",
+    "build": "run-s clean sass prep-dist"
   },
   "devDependencies": {
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
     "npm-run-all": "^4.1.5",
     "rimraf": "^4.1.2",
     "sass": "^1.58.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog",
+      "disableScopeLowerCase": false,
+      "disableSubjectLowerCase": false,
+      "maxHeaderWidth": 100,
+      "maxLineWidth": 100,
+      "defaultType": "",
+      "defaultScope": "",
+      "defaultSubject": "",
+      "defaultBody": "",
+      "defaultIssues": "",
+      "types": {
+        "feat": {
+          "description": "A new feature",
+          "title": "Features"
+        },
+        "enhance": {
+          "description": "An enhancement of an existing feature",
+          "title": "Enhancement"
+        },
+        "designfix": {
+          "description": "A fix for a design issue",
+          "title": "Design fix"
+        },
+        "fix": {
+          "description": "A fix for a technical bug",
+          "title": "Bug Fix"
+        },
+        "docs": {
+          "description": "Documentation only changes",
+          "title": "Documentation"
+        },
+        "style": {
+          "description": "Code style/layout changes",
+          "title": "Style"
+        },
+        "refactor": {
+          "description": "Code changes which neither adds a new feature, ",
+          "title": "Refactor"
+        },
+        "test": {
+          "description": "Adds or improves tests",
+          "title": "Tests"
+        },
+        "build": {
+          "description": "Changes to the build process",
+          "title": "Build process"
+        }
+      }
+    }
   }
 }
