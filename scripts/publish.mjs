@@ -9,7 +9,8 @@ const excludePackageKeys = new Set([
   'scriptsComments',
   'scripts',
   'devDependencies',
-  'files'
+  'files',
+  'config'
 ]);
 
 fs.writeFileSync("dist/package.json", JSON.stringify(pkg, (key, value) => {
