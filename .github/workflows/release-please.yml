@@ -12,4 +12,4 @@ jobs:
           release-type: node
           package-name: release-please-action
         env:
-          token: ${{secrets.release_please}}
+          token: ${{secrets.GITHUB_TOKEN}}
