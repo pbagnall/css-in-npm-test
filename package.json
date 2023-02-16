@@ -30,7 +30,7 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog",
       "disableScopeLowerCase": false,
-      "disableSubjectLowerCase": false,
+      "disableSubjectLowerCase": true,
       "maxHeaderWidth": 100,
       "maxLineWidth": 100,
       "defaultType": "",
