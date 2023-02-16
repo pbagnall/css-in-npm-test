@@ -12,4 +12,4 @@ jobs:
           release-type: node
           package-name: release-please-action
         env:
-          NODE_AUTH_TOKEN: ${{secrets.release_please}}
+          token: ${{secrets.release_please}}
