@@ -26,8 +26,8 @@
 on:
   push:
     branches:
-      - develop
-name: release-please
+      - main
+name: Release Please
 jobs:
   release-please:
     runs-on: ubuntu-latest
