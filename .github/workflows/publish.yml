@@ -11,16 +11,19 @@ jobs:
   publish-npm:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout develop branch
+        uses: actions/checkout@v3
         with:
           ref: develop
 
-      - uses: actions/setup-node@v3
+      - name: Setup Node
+        uses: actions/setup-node@v3
         with:
           node-version: 18.x
           registry-url: https://registry.npmjs.org/
 
-      - run: |
+      - name: Publish NPM
+        run: |2
           echo github.ref is ${{github.ref}}
           yarn --frozen-lockfile
           yarn build
