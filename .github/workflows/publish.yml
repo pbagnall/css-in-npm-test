@@ -26,6 +26,5 @@ jobs:
           yarn build
           yarn test
           yarn publish --access public dist
-
-      - env:
+        env:
           NODE_AUTH_TOKEN: ${{secrets.PUBLISH_CSS}}
