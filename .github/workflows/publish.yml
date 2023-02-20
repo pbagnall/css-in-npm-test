@@ -23,7 +23,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
 
       - name: Publish NPM
-        run: |2
+        run: |
           echo github.ref is ${{github.ref}}
           yarn --frozen-lockfile
           yarn build
