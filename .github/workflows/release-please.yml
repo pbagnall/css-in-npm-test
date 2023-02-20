@@ -1,0 +1,40 @@
+# This script requires a Personal access token to be created. The token
+# should be added as a repository secret called "RELEASE_PLEASE" under
+# https://github.com/OWNER/REPO/settings/secrets/actions
+#
+# The permissions required are:
+#
+# Creating a PAT with these permissions is not working correctly.
+# * Actions (r)
+# * Commit statuses (r)
+# * Contents (rw)
+# * Deployments (rw)
+# * Metadata (r)
+# * Pull Requests (rw)
+# * Webhooks (r)
+# * Workflows (rw)
+# 
+# Adding these worked
+# * Administration (rw)
+# * Commit Statuses (rw)
+# * Discussions (rw)
+# * Issues (rw)
+# * Merge Queues (rw)
+# * Repository announcement banners (rw)
+# * Variables (r)
+
+on:
+  push:
+    branches:
+      - develop
+name: release-please
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: google-github-actions/release-please-action@v3
+        with:
+          release-type: node
+          package-name: release-please-action
+        env:
+          token: ${{secrets.RELEASE_PLEASE}}
