@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.1](https://github.com/pbagnall/css-in-npm-test/compare/v0.5.0...v0.5.1) (2023-02-20)
+
+
+### Bug Fixes
+
+* **header:** fixed colour on h6 ([6385350](https://github.com/pbagnall/css-in-npm-test/commit/6385350f358163b0acb40428578706d1ec24023d))
+
 ## [0.5.0](https://github.com/pbagnall/css-in-npm-test/compare/v0.4.0...v0.5.0) (2023-02-20)
 
 
