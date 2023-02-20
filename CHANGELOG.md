@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/pbagnall/css-in-npm-test/compare/v0.2.0...v0.3.0) (2023-02-20)
+
+
+### Features
+
+* **header:** h4 is now bolded ([1e6c8c1](https://github.com/pbagnall/css-in-npm-test/commit/1e6c8c12f05358195c895b87b5fb3c7ac8ffa1a9))
+
 ## [0.2.0](https://github.com/pbagnall/css-in-npm-test/compare/v0.1.0-alpha5...v0.2.0) (2023-02-16)
 
 
