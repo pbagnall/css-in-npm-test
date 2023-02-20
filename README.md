@@ -3,6 +3,7 @@ Testing options for publishing CSS in NPM packages.
 
 [![npm version](https://img.shields.io/npm/v/@pbagnall/css-in-npm-test.svg)](https://www.npmjs.org/package/@pbagnall/css-in-npm-test)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![release-please](https://github.com/pbagnall/css-in-npm-test/actions/workflows/release-please.yml/badge.svg)](https://github.com/pbagnall/css-in-npm-test/actions/workflows/release-please.yml)
 
 ## installation
 This has an unusual structure. The package is not intended to be used directly, instead it generates a package which can be used. This way client projects don't
