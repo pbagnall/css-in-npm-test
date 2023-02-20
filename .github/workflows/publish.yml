@@ -20,13 +20,9 @@ jobs:
         with:
           node-version: 18.x
           registry-url: https://registry.npmjs.org/
-      - name: Publish NPM
-        run: |
-          echo github.ref is ${{github.ref}}
-          echo GITHUB_REF is ${GITHUB_REF}
-          yarn --frozen-lockfile
-          yarn build
-          yarn test
-          yarn publish --access public dist
+      - run: yarn --frozen-lockfile
+      - run: yarn build
+      - run: yarn test
+      - run: yarn publish --access public dist
         env:
           NODE_AUTH_TOKEN: ${{secrets.PUBLISH_CSS}}
