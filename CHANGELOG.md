@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.2](https://github.com/pbagnall/css-in-npm-test/compare/v0.5.1...v0.5.2) (2023-02-20)
+
+
+### Bug Fixes
+
+* **header:** now pink h6 ([3864a00](https://github.com/pbagnall/css-in-npm-test/commit/3864a00912affddeabcf3351809652ce63b351c7))
+
 ## [0.5.1](https://github.com/pbagnall/css-in-npm-test/compare/v0.5.0...v0.5.1) (2023-02-20)
 
 
