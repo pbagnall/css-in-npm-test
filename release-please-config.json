@@ -1,12 +1,13 @@
 {
-  "bump-minor-pre-major": true,
-  "bump-patch-for-minor-pre-major": true,
   "packages": {
     ".": {
+      "bootstrap-sha": "7531c2d473ea422e750689dedcc7023204d0f105",
       "release-type": "node",
       "changelog-path": "CHANGELOG.md",
       "pull-request-title-pattern": "chore(release): ${version}",
-      "pull-request-header": "New release ${version} ready"
+      "pull-request-header": "New release ready",
+      "bump-minor-pre-major": true,
+      "bump-patch-for-minor-pre-major": true
     }
   }
 }
