@@ -37,45 +37,7 @@
       "defaultScope": "",
       "defaultSubject": "",
       "defaultBody": "",
-      "defaultIssues": "",
-      "types": {
-        "feat": {
-          "description": "A new feature",
-          "title": "Features"
-        },
-        "enhance": {
-          "description": "An enhancement of an existing feature",
-          "title": "Enhancement"
-        },
-        "designfix": {
-          "description": "A fix for a design issue",
-          "title": "Design fix"
-        },
-        "fix": {
-          "description": "A fix for a technical bug",
-          "title": "Bug Fix"
-        },
-        "docs": {
-          "description": "Documentation only changes",
-          "title": "Documentation"
-        },
-        "style": {
-          "description": "Code style/layout changes",
-          "title": "Style"
-        },
-        "refactor": {
-          "description": "Code changes which neither adds a new feature, ",
-          "title": "Refactor"
-        },
-        "test": {
-          "description": "Adds or improves tests",
-          "title": "Tests"
-        },
-        "build": {
-          "description": "Changes to the build process",
-          "title": "Build process"
-        }
-      }
+      "defaultIssues": ""
     }
   }
 }
