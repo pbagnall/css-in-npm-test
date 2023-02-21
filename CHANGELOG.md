@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.6](https://github.com/pbagnall/css-in-npm-test/compare/v0.5.5...v0.5.6) (2023-02-21)
+
+
+### Bug Fixes
+
+* **header:** h6 is now yellow ([6911e98](https://github.com/pbagnall/css-in-npm-test/commit/6911e98fc995d29a3eb67f9ee591207f3f80b0c4))
+
 ## [0.5.5](https://github.com/pbagnall/css-in-npm-test/compare/v0.5.4...v0.5.5) (2023-02-21)
 
 
