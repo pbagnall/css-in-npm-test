@@ -3,7 +3,6 @@ Testing options for publishing CSS in NPM packages.
 
 [![Build & Test](https://github.com/pbagnall/css-in-npm-test/actions/workflows/build.yml/badge.svg)](https://github.com/pbagnall/css-in-npm-test/actions/workflows/build.yml)
 [![release-please](https://github.com/pbagnall/css-in-npm-test/actions/workflows/release-please.yml/badge.svg)](https://github.com/pbagnall/css-in-npm-test/actions/workflows/release-please.yml)
-[![Publish Package](https://github.com/pbagnall/css-in-npm-test/actions/workflows/publish.yml/badge.svg)](https://github.com/pbagnall/css-in-npm-test/actions/workflows/publish.yml)
 
 [![npm version](https://img.shields.io/npm/v/@pbagnall/css-in-npm-test.svg)](https://www.npmjs.org/package/@pbagnall/css-in-npm-test)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)

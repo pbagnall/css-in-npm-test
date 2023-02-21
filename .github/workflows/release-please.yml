@@ -39,11 +39,9 @@ jobs:
         with:
           release-type: node
           package-name: release-please-action
+          command: manifest
         env:
           token: ${{secrets.RELEASE_PLEASE}}
-
-      - name: Report ref
-        run: echo ${{ steps.release.outputs.tag_name }}
 
       - name: Checkout develop branch
         uses: actions/checkout@v3
