@@ -4,7 +4,7 @@
     ".": {
       "release-type": "node",
       "changelog-path": "CHANGELOG.md",
-      "component": "",
+      "monorepo-tags": false,
       "pull-request-title-pattern": "chore(release): ${version}",
       "pull-request-header": "New release ready",
       "bump-minor-pre-major": true,
