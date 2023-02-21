@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.8](https://github.com/pbagnall/css-in-npm-test/compare/css-in-npm-test-v0.5.7...css-in-npm-test-v0.5.8) (2023-02-21)
+
+
+### Bug Fixes
+
+* h6 is now grey ([c17c7ca](https://github.com/pbagnall/css-in-npm-test/commit/c17c7ca97000a3b583b1176775ea36b25bb7ef2f))
+
 ## [0.5.7](https://github.com/pbagnall/css-in-npm-test/compare/css-in-npm-test-v0.5.6...css-in-npm-test-v0.5.7) (2023-02-21)
 
 
