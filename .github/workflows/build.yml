@@ -5,9 +5,9 @@ name: Build & Test
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "was_main" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "was_main" ]
 
 jobs:
   build:

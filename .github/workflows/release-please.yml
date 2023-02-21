@@ -23,11 +23,13 @@
 # * Repository announcement banners (rw)
 # * Variables (r)
 
+name: Release Please
+
 on:
   push:
     branches:
       - main
-name: Release Please
+
 jobs:
   release-please:
     runs-on: ubuntu-latest
@@ -40,11 +42,14 @@ jobs:
         env:
           token: ${{secrets.RELEASE_PLEASE}}
 
+      - name: Report ref
+        run: echo ${{ steps.release.outputs.tag_name }}
+
       - name: Checkout develop branch
         uses: actions/checkout@v3
         if: ${{ steps.release.outputs.release_created }}
         with:
-          ref: tags/${{ steps.release.outputs.tag_name }}
+          ref: ${{ steps.release.outputs.tag_name }}
 
       - name: Setup Node
         uses: actions/setup-node@v3
