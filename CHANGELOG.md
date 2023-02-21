@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.7](https://github.com/pbagnall/css-in-npm-test/compare/css-in-npm-test-v0.5.6...css-in-npm-test-v0.5.7) (2023-02-21)
+
+
+### Bug Fixes
+
+* H6 is now blue ([6c53d8c](https://github.com/pbagnall/css-in-npm-test/commit/6c53d8c435cb4b7df705eb8ba03e4ad97ee7a1bd))
+
 ## [0.5.6](https://github.com/pbagnall/css-in-npm-test/compare/v0.5.5...v0.5.6) (2023-02-21)
 
 
