@@ -1,7 +1,7 @@
 {
+  "bootstrap-sha": "6911e98fc995d29a3eb67f9ee591207f3f80b0c4",
   "packages": {
     ".": {
-      "bootstrap-sha": "7531c2d473ea422e750689dedcc7023204d0f105",
       "release-type": "node",
       "changelog-path": "CHANGELOG.md",
       "pull-request-title-pattern": "chore(release): ${version}",
