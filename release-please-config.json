@@ -2,7 +2,7 @@
   "bump-minor-pre-major": true,
   "bump-patch-for-minor-pre-major": true,
   "packages": {
-    "dist": {
+    ".": {
       "release-type": "node",
       "changelog-path": "CHANGELOG.md"
     }
