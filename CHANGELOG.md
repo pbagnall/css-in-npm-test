@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.9](https://github.com/pbagnall/css-in-npm-test/compare/css-in-npm-test-v0.5.8...css-in-npm-test-v0.5.9) (2023-02-21)
+
+
+### Bug Fixes
+
+* h6 is now coral ([51d7277](https://github.com/pbagnall/css-in-npm-test/commit/51d7277947a0d89ba48a6abc64e4d8fc61dbc788))
+
 ## [0.5.8](https://github.com/pbagnall/css-in-npm-test/compare/css-in-npm-test-v0.5.7...css-in-npm-test-v0.5.8) (2023-02-21)
 
 
