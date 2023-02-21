@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.5](https://github.com/pbagnall/css-in-npm-test/compare/v0.5.4...v0.5.5) (2023-02-21)
+
+
+### Bug Fixes
+
+* **header:** h5 is now green ([e659a7d](https://github.com/pbagnall/css-in-npm-test/commit/e659a7d49d17fbc0ab858cb37fe9f6adf99b02b5))
+
 ## [0.5.4](https://github.com/pbagnall/css-in-npm-test/compare/v0.5.3...v0.5.4) (2023-02-21)
 
 
