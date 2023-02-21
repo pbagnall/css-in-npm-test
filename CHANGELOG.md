@@ -1,5 +1,32 @@
 # Changelog
 
+## [0.2.0](https://github.com/pbagnall/css-in-npm-test/compare/css-in-npm-test-v0.5.6...css-in-npm-test-v0.2.0) (2023-02-21)
+
+
+### Features
+
+* **header:** Added h5 as italic ([b613817](https://github.com/pbagnall/css-in-npm-test/commit/b6138179b99844eb03f66824f87ddd6820ff0865))
+* **header:** h4 is now bolded ([1e6c8c1](https://github.com/pbagnall/css-in-npm-test/commit/1e6c8c12f05358195c895b87b5fb3c7ac8ffa1a9))
+* **header:** h6 defined ([e165913](https://github.com/pbagnall/css-in-npm-test/commit/e16591394408fc51d47f5a781f201fa37a760c25))
+* **header:** Set h3 size ([534c68b](https://github.com/pbagnall/css-in-npm-test/commit/534c68bbd84d258f3905565e46fd9a0de6dbcbdc))
+* **heading:** set the font size and weight for h2 ([79d8912](https://github.com/pbagnall/css-in-npm-test/commit/79d8912f86bebcd755f6a0b48cb70c1517929ea8))
+
+
+### Bug Fixes
+
+* h5 is now purple ([9ad84ff](https://github.com/pbagnall/css-in-npm-test/commit/9ad84fff24b6241518b18de6616cc793e4dc4eb5))
+* H6 is now blue ([6c53d8c](https://github.com/pbagnall/css-in-npm-test/commit/6c53d8c435cb4b7df705eb8ba03e4ad97ee7a1bd))
+* h6 is purple ([9dc3fe2](https://github.com/pbagnall/css-in-npm-test/commit/9dc3fe2b2441cc24dd0bfcb2f85451899f75f3ea))
+* **header:** fixed colour on h6 ([6385350](https://github.com/pbagnall/css-in-npm-test/commit/6385350f358163b0acb40428578706d1ec24023d))
+* **header:** h5 is now green ([e659a7d](https://github.com/pbagnall/css-in-npm-test/commit/e659a7d49d17fbc0ab858cb37fe9f6adf99b02b5))
+* **header:** h6 is now yellow ([6911e98](https://github.com/pbagnall/css-in-npm-test/commit/6911e98fc995d29a3eb67f9ee591207f3f80b0c4))
+* **header:** now pink h6 ([3864a00](https://github.com/pbagnall/css-in-npm-test/commit/3864a00912affddeabcf3351809652ce63b351c7))
+
+
+### Build System
+
+* Release as 0.2.0 ([fcd1d0f](https://github.com/pbagnall/css-in-npm-test/commit/fcd1d0f4b603602669e8e0194af97cdbf011e700))
+
 ## [0.5.6](https://github.com/pbagnall/css-in-npm-test/compare/v0.5.5...v0.5.6) (2023-02-21)
 
 
