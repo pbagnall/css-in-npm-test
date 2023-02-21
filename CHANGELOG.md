@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.4](https://github.com/pbagnall/css-in-npm-test/compare/v0.5.3...v0.5.4) (2023-02-21)
+
+
+### Bug Fixes
+
+* h5 is now purple ([9ad84ff](https://github.com/pbagnall/css-in-npm-test/commit/9ad84fff24b6241518b18de6616cc793e4dc4eb5))
+
 ## [0.5.3](https://github.com/pbagnall/css-in-npm-test/compare/v0.5.2...v0.5.3) (2023-02-20)
 
 
