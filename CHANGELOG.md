@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.5.10](https://github.com/pbagnall/css-in-npm-test/compare/css-in-npm-test-v0.5.9...css-in-npm-test-v0.5.10) (2023-02-22)
+
+
+### Bug Fixes
+
+* breaking the build, to test release-please ([0213090](https://github.com/pbagnall/css-in-npm-test/commit/0213090d64d93cdf2bc5cf40d4a2479b1cd8405f))
+* Fixing build issue to test release-please ([727464b](https://github.com/pbagnall/css-in-npm-test/commit/727464bd634c1e12e080e46d93e8aa4e92f1c7e3))
+
 ## [0.5.9](https://github.com/pbagnall/css-in-npm-test/compare/css-in-npm-test-v0.5.8...css-in-npm-test-v0.5.9) (2023-02-21)
 
 
