@@ -34,21 +34,11 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
-      - uses: google-github-actions/release-please-action@v3
-        id: release
-        with:
-          command: manifest
-        env:
-          token: ${{secrets.RELEASE_PLEASE}}
-
-      - name: Report ref
-        run: echo ${{ steps.release.outputs.tag_name }}
-
-      - name: Checkout develop branch
+      - name: Checkout main branch
         uses: actions/checkout@v3
         if: ${{ steps.release.outputs.release_created }}
         with:
-          ref: ${{ steps.release.outputs.tag_name }}
+          ref: main
 
       - name: Setup Node
         uses: actions/setup-node@v3
@@ -68,6 +58,16 @@ jobs:
       - name: Test package
         run: yarn test
         if: ${{ steps.release.outputs.release_created }}
+
+      - uses: google-github-actions/release-please-action@v3
+        id: release
+        with:
+          command: manifest
+        env:
+          token: ${{secrets.RELEASE_PLEASE}}
+
+      - name: Report ref
+        run: echo ${{ steps.release.outputs.tag_name }}
 
       - name: Publish NPM
         run: yarn publish --access public dist
