@@ -1,6 +1,6 @@
 {
   "name": "@pbagnall/css-in-npm-test",
-  "version": "0.5.10",
+  "version": "0.5.11",
   "description": "Testing options for publishing CSS in NPM packages",
   "main": "index.js",
   "repository": "git@github.com:pbagnall/css-in-npm-test.git",
