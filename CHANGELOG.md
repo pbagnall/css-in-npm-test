@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.13](https://github.com/pbagnall/css-in-npm-test/compare/css-in-npm-test-v0.5.12...css-in-npm-test-v0.5.13) (2023-02-22)
+
+
+### Features
+
+* **input:** Added input styling ([36c4cee](https://github.com/pbagnall/css-in-npm-test/commit/36c4ceee0247cd0f511734f360c5f20f36153a76))
+
 ## [0.5.12](https://github.com/pbagnall/css-in-npm-test/compare/css-in-npm-test-v0.5.11...css-in-npm-test-v0.5.12) (2023-02-22)
 
 
