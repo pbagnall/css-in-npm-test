@@ -58,7 +58,6 @@ jobs:
         id: release
         with:
           command: manifest
-        env:
           token: ${{secrets.RELEASE_PLEASE}}
 
       - name: Report ref
