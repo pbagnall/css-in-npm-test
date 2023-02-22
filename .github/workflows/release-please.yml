@@ -36,28 +36,23 @@ jobs:
     steps:
       - name: Checkout main branch
         uses: actions/checkout@v3
-        if: ${{ steps.release.outputs.release_created }}
         with:
           ref: main
 
       - name: Setup Node
         uses: actions/setup-node@v3
-        if: ${{ steps.release.outputs.release_created }}
         with:
           node-version: 18.x
           registry-url: https://registry.npmjs.org/
 
       - name: Install npm packages
         run: yarn --frozen-lockfile
-        if: ${{ steps.release.outputs.release_created }}
 
       - name: Build package
         run: yarn build
-        if: ${{ steps.release.outputs.release_created }}
 
       - name: Test package
         run: yarn test
-        if: ${{ steps.release.outputs.release_created }}
 
       - uses: google-github-actions/release-please-action@v3
         id: release
@@ -67,10 +62,11 @@ jobs:
           token: ${{secrets.RELEASE_PLEASE}}
 
       - name: Report ref
+        if: ${{ steps.release.outputs.release_created }}
         run: echo ${{ steps.release.outputs.tag_name }}
 
       - name: Publish NPM
-        run: yarn publish --access public dist
         if: ${{ steps.release.outputs.release_created }}
+        run: yarn publish --access public dist
         env:
           NODE_AUTH_TOKEN: ${{secrets.PUBLISH_CSS}}
