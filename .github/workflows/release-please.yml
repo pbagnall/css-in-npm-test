@@ -54,7 +54,8 @@ jobs:
       - name: Test package
         run: yarn test
 
-      - uses: google-github-actions/release-please-action@v3
+      - name: Release Please
+        uses: google-github-actions/release-please-action@v3
         id: release
         with:
           command: manifest

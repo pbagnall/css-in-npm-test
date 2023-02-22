@@ -16,7 +16,7 @@
     "clean": "rimraf dist",
     "sass": "sass --no-source-map src/test.scss dist/styles.css",
     "test": "true",
-    "prep-dist": "scripts/publish.mjs",
+    "prep-dist": "scripts/prepare_package.mjs",
     "build": "run-s clean sass prep-dist"
   },
   "devDependencies": {
