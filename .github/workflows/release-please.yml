@@ -2,26 +2,10 @@
 # should be added as a repository secret called "RELEASE_PLEASE" under
 # https://github.com/OWNER/REPO/settings/secrets/actions
 #
+# NB: Fine grained PATs do NOT work, only classic PATs work at this time
 # The permissions required are:
-#
-# Creating a PAT with these permissions is not working correctly.
-# * Actions (r)
-# * Commit statuses (r)
-# * Contents (rw)
-# * Deployments (rw)
-# * Metadata (r)
-# * Pull Requests (rw)
-# * Webhooks (r)
-# * Workflows (rw)
-# 
-# Adding these worked
-# * Administration (rw)
-# * Commit Statuses (rw)
-# * Discussions (rw)
-# * Issues (rw)
-# * Merge Queues (rw)
-# * Repository announcement banners (rw)
-# * Variables (r)
+# repo
+# write-packages (for writing to the github registry)
 
 name: Release Please
 
