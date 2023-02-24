@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.15](https://github.com/pbagnall/css-in-npm-test/compare/css-in-npm-test-v0.5.14...css-in-npm-test-v0.5.15) (2023-02-24)
+
+
+### Bug Fixes
+
+* **checkbox:** Checkbox is now green ([6af9ec0](https://github.com/pbagnall/css-in-npm-test/commit/6af9ec02ee25436f6d2339db66ce03975a1fc5df))
+
 ## [0.5.14](https://github.com/pbagnall/css-in-npm-test/compare/css-in-npm-test-v0.5.13...css-in-npm-test-v0.5.14) (2023-02-22)
 
 
