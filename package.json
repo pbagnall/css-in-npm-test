@@ -1,6 +1,6 @@
 {
   "name": "@pbagnall/css-in-npm-test",
-  "version": "0.5.13",
+  "version": "0.5.14",
   "description": "Testing options for publishing CSS in NPM packages",
   "main": "index.js",
   "repository": "git@github.com:pbagnall/css-in-npm-test.git",
@@ -16,7 +16,7 @@
     "clean": "rimraf dist",
     "sass": "sass --no-source-map src/test.scss dist/styles.css",
     "test": "true",
-    "prep-dist": "scripts/publish.mjs",
+    "prep-dist": "scripts/prepare_package.mjs",
     "build": "run-s clean sass prep-dist"
   },
   "devDependencies": {

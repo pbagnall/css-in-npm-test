@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.14](https://github.com/pbagnall/css-in-npm-test/compare/css-in-npm-test-v0.5.13...css-in-npm-test-v0.5.14) (2023-02-22)
+
+
+### Features
+
+* **checkbox:** Added checkbox styling ([f1a5b95](https://github.com/pbagnall/css-in-npm-test/commit/f1a5b95ee958b22f7d35433d3953ddf2eeeaf5ff))
+
 ## [0.5.13](https://github.com/pbagnall/css-in-npm-test/compare/css-in-npm-test-v0.5.12...css-in-npm-test-v0.5.13) (2023-02-22)
 
 

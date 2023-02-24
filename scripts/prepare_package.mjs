@@ -9,7 +9,6 @@ const excludePackageKeys = new Set([
   'scriptsComments',
   'scripts',
   'devDependencies',
-  'files',
   'config'
 ]);
 
