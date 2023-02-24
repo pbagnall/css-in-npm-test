@@ -78,8 +78,7 @@ The repo needs two secrets, one to run Release-please and one to publish to NPM.
 ##### Release-please token
 This will need to be created by an admin of the repository. They should go to their personal settings -> Developer Settings -> Personal access tokens and then "Generate new token". You **must** select a Classic token, the fine grained tokens do not work for this as yet. Given the token a meaningful name, and set an exipry. You'll then need to set the following permissions: (to be checked)
 * repo
-* workflow
-* write:packages
+* write:packages (this is needed to write to the github registry, but not the NPM one, that needs an NPM token)
 Once you've created the token, copy it to the clipboard and go to the repo settings page -> Secrets and variables -> Actions. Then create a new repository secret and paste in the token. Give the token the name RELEASE_PLEASE.
 
 ##### NPM token.
